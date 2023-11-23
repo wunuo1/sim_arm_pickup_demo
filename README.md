@@ -4,10 +4,10 @@
 
 该功能包通过接收用户请求，控制机械臂夹取目标物体。包含以下几个功能包：
 
-1. sim_arm_panda_gazebo：仿真机械臂的gazebo环境以及moveit2控制相关的参数（基于https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble进行了裁剪和优化）
+1. sim_arm_panda_gazebo：仿真机械臂的gazebo环境以及moveit2控制相关的参数，[参考功能包](https://github.com/IFRA-Cranfield/ros2_RobotSimulation/tree/humble)进行了裁剪和优化
 2. sim_arm_pickup_control：控制仿真机械臂拾取物体
 3. sim_arm_location_msg：定义仿真机械臂拾取功能中所需的服务
-4. gazebo-pkgs：gazebo仿真中机械臂夹取修复插件（源码链接：https://github.com/JenniferBuehler/gazebo-pkgs/tree/humble）
+4. gazebo-pkgs：gazebo仿真中机械臂夹取修复插件，[源码链接](https://github.com/JenniferBuehler/gazebo-pkgs/tree/humble)
 
 # 使用方法
 
@@ -15,7 +15,7 @@
 
 1. 安装ros2-humble，gazebo方法此处不展开
 
-2. 安装杂项（可参考https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html）
+2. 安装杂项，[参考链接](https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html)
 
 ```shell
 
