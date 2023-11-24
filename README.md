@@ -64,11 +64,14 @@ colcon build --mixin release
 
 ```shell
 #启动机械臂仿真环境（出现“You can start planning now!”后启动其他功能）
+source ~/moveit2_ws/install/setup.bash
 ros2 launch panda_ros2_moveit2 panda.launch.py
 
 #打开新的终端，启动机械臂控制节点（该节点接收请求后才会进行抓取，请配合NodeHub的机械臂物体拾取功能一起使用）
+source ~/moveit2_ws/install/setup.bash
 ros2 launch sim_arm_pickup_control arm_pickup_service.launch.py
 
 #也可以运行测试节点，将会抓取launch脚本中指定位置的物体
+source ~/moveit2_ws/install/setup.bash
 ros2 launch sim_arm_pickup_control arm_pickup_test.launch.py
 ```
