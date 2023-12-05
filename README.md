@@ -75,3 +75,5 @@ ros2 launch sim_arm_pickup_control arm_pickup_service.launch.py
 source ~/moveit2_ws/install/setup.bash
 ros2 launch sim_arm_pickup_control arm_pickup_test.launch.py
 ```
+
+![env](./image/env.png)
