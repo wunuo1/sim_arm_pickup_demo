@@ -36,6 +36,9 @@ colcon mixin update default
 
 #安装vcstool
 sudo apt install python3-vcstool
+
+#安装其他功能包
+sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gripper-controllers gazebo ros-humble-gazebo-ros2-control ros-humble-gazebo-ros-pkgs ros-humble-xacro
 ```
 
 3. 下载源码并编译
